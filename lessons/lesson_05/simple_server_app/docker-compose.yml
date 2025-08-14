@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  simple-server:
+    build: .
+    container_name: simple-server
+    ports:
+      - "3000:3000"
+
+# docker compose up запустить
+# docker compose down остановить или ctrl + С
