@@ -1,0 +1,8 @@
+# Исключить всё
+*
+
+# Разрешить только нужные файлы
+!script.js
+!Dockerfile
+!.dockerignore
+
