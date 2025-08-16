@@ -59,4 +59,11 @@ top -b -n 1 | sed -n '8,10p' > ~/storage/system/process/top3_processes.txt
 # проверка
 cat ~/storage/system/process/top3_processes.txt
 ```
----
+
+### быстрая проверка структуры каталогов
+```shell
+echo "---- /team60"; sudo ls -l /team60
+echo "---- ~/storage"; ls -l ~/storage
+echo "---- ~/storage/system"; ls -l ~/storage/system
+echo "---- ~/storage/system/process"; ls -l ~/storage/system/process
+```
